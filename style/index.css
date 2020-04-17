@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+header {
+    margin: 3vh 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 5vh;
+    padding-right: 5vh;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
