@@ -274,3 +274,21 @@ footer nav a {
         margin-bottom: 5vh;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+
+    header > img {
+        /* Keeps margins set by .container around other elements but allows header img to span full width of phone
+        without adjusting padding of every other element
+        */
+        width: 100vw;
+        margin-left: -5vw;
+    }
+
+    footer, .bottom-content {
+        display: none;
+    }
+}
