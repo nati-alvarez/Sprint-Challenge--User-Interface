@@ -1,0 +1,38 @@
+form {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5vh;
+    margin-bottom: 10vh;
+}
+
+form h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+form fieldset {
+    margin-bottom: 2vh;
+}
+
+form input, form textarea {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-family: inherit;
+    border: 1px solid #3f3f3f;
+}
+
+form button {
+    background: black;
+    color: white;
+    padding: 2vh;
+    border: none;
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        padding: 2vh;
+    }
+}
