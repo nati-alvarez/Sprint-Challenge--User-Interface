@@ -1,0 +1,48 @@
+main h1 {
+    font-size: 2rem;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10vh;
+}
+
+.products .product {
+    width: 33%;
+}
+
+.products .product img {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.products .product h2 {
+    font-weight: bold;
+}
+
+.products .product p {
+    margin-bottom: 2vh;
+}
+
+.products .product button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 1vh 2vh;
+}
+
+@media screen and (max-width: 800px){
+    .products .product {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .products .product {
+        width: 100%;
+    }
+}
